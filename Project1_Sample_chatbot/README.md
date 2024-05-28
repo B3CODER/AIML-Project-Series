@@ -22,11 +22,10 @@ translating messages, and searching Wikipedia.
   python chatbot.py
   ```
 2) Interact with the Bot:
-Type your messages in the input field and click "Send" to chat with the bot.
+Type your messages in the input field and click "Send" to chat with the bot.<br>
 The bot will ask you a series of introductory questions and provide responses based on your input.
 
---------------------------------------------------------------------------------
-Example User Inputs:
+### Example User Inputs:
 "Hi"
 "How are you?"
 "What is your name?"
