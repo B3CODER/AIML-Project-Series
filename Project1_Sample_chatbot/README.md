@@ -5,8 +5,8 @@ functionalities such as fetching weather information, telling jokes, providing n
 translating messages, and searching Wikipedia.
 
 Features:
-Interactive Chat Interface: Allows users to chat with the bot in a user-friendly interface.
-Personalized Interaction: Asks users questions to gather basic information (name, hobbies, favorite books/movies) and remembers it throughout the conversation.
+1) Interactive Chat Interface: Allows users to chat with the bot in a user-friendly interface.
+2) Personalized Interaction: Asks users questions to gather basic information (name, hobbies, favorite books/movies) and remembers it throughout the conversation.
 Basic Responses: Predefined responses to common greetings and questions.
 Current Date: Provides the current date upon request.
 Weather Information: Returns dummy weather information for the user's location.
