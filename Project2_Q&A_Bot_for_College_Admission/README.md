@@ -9,10 +9,10 @@ A chatbot is a software application designed to simulate human conversation. It 
 ## Why Do We Need a Chatbot?
 ### Chatbots provide several benefits, including:
 
-*24/7 Availability: They can assist users at any time, providing immediate responses to queries.
-*Consistency: They offer consistent information, reducing the chances of human error.
-*Efficiency: They can handle multiple queries simultaneously, improving user experience and reducing wait times.
-*Cost-effective: They help reduce operational costs by automating routine tasks and customer interactions.
+- 24/7 Availability: They can assist users at any time, providing immediate responses to queries.
+- Consistency: They offer consistent information, reducing the chances of human error.
+- Efficiency: They can handle multiple queries simultaneously, improving user experience and reducing wait times.
+- Cost-effective: They help reduce operational costs by automating routine tasks and customer interactions.
 
 ## Features
 
