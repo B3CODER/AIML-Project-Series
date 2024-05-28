@@ -1,0 +1,5 @@
+Open the chatbot.py in python idle
+Run the file chatbot.py
+you will find a url after running chatbot.py
+Copy the url and hit in any browser
+You chatbot web app will start

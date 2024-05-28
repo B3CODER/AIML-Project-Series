@@ -1,0 +1,65 @@
+body {
+    background-color: #f0f8ff; /* Alice Blue background color */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #4CAF50; /* Green color for the heading */
+    font-weight: bold;
+}
+
+#chatbox {
+    background-color: #fff; /* White background for the chatbox */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for better appearance */
+    max-height: 500px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    width: 100%; /* Extend the width of the chatbox */
+}
+
+#textInput {
+    border: none;
+    border-bottom: 3px solid #4CAF50; /* Green border */
+    background-color: white;
+}
+
+.userText {
+    color: #000; /* Black color for user text */
+    font-family: monospace;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+}
+.userText span {
+    background-color: #009688; /* Teal background for user text bubble */
+    color: #fff; /* White text color */
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.botText {
+    color: #5D4CF5; /* Purple color for bot text */
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+}
+.botText span {
+    background-color: #FF7043; /* Orange background for bot text bubble */
+    color: #fff; /* White text color */
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#userInput {
+    margin-top: 10px;
+}
+
+.btn-success {
+    background-color: #4CAF50; /* Green button */
+    border: none;
+}
