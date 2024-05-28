@@ -50,15 +50,17 @@ Project2_Q&A_Bot_for_College_Admission/
 
 1) Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/admission_chatbot.git <br>
+   git clone https://github.com/yourusername/admission_chatbot.git 
    cd admission_chatbot
-```
-3) Install dependencies: <br>
-   * pip install -r requirements.txt
-
-4) Run the chatbot:<br>
-   * python chatbot.py
-
-5) Access the chatbot: <br>
-   * Open your web browser and go to http://127.0.0.1:5000/.
+   ```
+2) Install dependencies: 
+   ```bash
+   pip install -r requirements.txt
+    ```  
+3) Run the chatbot:
+   ```bash
+   python chatbot.py
+   ```
+4) Access the chatbot: 
+    Open your web browser and go to http://127.0.0.1:5000/.
    
