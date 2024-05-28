@@ -1,4 +1,5 @@
 SimpleChatbot
+---------------------------------------------------
 SimpleChatbot is an interactive chatbot application built using Tkinter in Python. It engages users in conversation, answers queries, and provides various 
 functionalities such as fetching weather information, telling jokes, providing news headlines, sharing famous quotes, performing basic math operations, 
 translating messages, and searching Wikipedia.
