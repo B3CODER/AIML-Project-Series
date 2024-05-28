@@ -1,23 +1,23 @@
-# College Admission Chatbot 
-This project is a Flask-based chatbot designed to assist users with inquiries related to college admissions. The chatbot can handle a variety of queries about the admission process, eligibility criteria, available courses, fees, and more.
+# Q&A Bot for College Admission
 
---------------------------------------------------------------------------
-# What is a Chatbot?
-A chatbot is a software application designed to simulate human conversation. It interacts with users using natural language, allowing them to ask questions and receive relevant responses. Chatbots are widely used for customer service, information retrieval, and automating repetitive tasks.
+This project is a Q&A bot for college admission built with Flask that can respond to user inquiries about the college admission process. It handles various admission-related questions and provides appropriate responses.
 
---------------------------------------------------------------------------
+## Why We Need a Chatbot
 
-# Why Do We Need a Chatbot?
-Chatbots provide several benefits, including:
+A chatbot can handle repetitive queries efficiently and provide instant responses to users. It improves user experience by providing quick answers to frequently asked questions, reducing the workload on human staff, and allowing them to focus on more complex tasks.
 
-1) 24/7 Availability: They can assist users at any time, providing immediate responses to queries.
-2) Consistency: They offer consistent information, reducing the chances of human error.
-3) Efficiency: They can handle multiple queries simultaneously, improving user experience and reducing wait times.
-4) Cost-effective: They help reduce operational costs by automating routine tasks and customer interactions.
+## Features
 
----------------------------------------------------------------------------
-# Requirements
-To install the required packages for this project, run: <br>
+- Handles basic greetings and conversational responses.
+- Provides specific responses to admission-related queries.
+- Logs user interactions and bot responses.
+- Error handling for 404 and 500 errors.
+
+## Requirements
+
+To install the required packages for this project, run:
+
+```bash
 pip install -r requirements.txt
 
 ---------------------------------------------------------------------------
@@ -43,6 +43,7 @@ Project2_Q&A_Bot_for_College_Admission/
 └── requirements.txt
 
 ---------------------------------------------------------------------------
+
 # Setup Instructions
 
 1) Clone the repository:<br>
