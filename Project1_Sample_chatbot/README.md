@@ -22,8 +22,8 @@ translating messages, and searching Wikipedia.
   python chatbot.py
   ```
 2) Interact with the Bot:<br>
-Type your messages in the input field and click "Send" to chat with the bot.<br>
-The bot will ask you a series of introductory questions and provide responses based on your input.
+- Type your messages in the input field and click "Send" to chat with the bot.
+- The bot will ask you a series of introductory questions and provide responses based on your input.
 
 ### Example User Inputs:
 "Hi"
