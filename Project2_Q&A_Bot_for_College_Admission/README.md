@@ -19,11 +19,12 @@ To install the required packages for this project, run:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ---------------------------------------------------------------------------
 
 # Project Structure
 
+```bash
 Project2_Q&A_Bot_for_College_Admission/
 │
 ├── static/
@@ -42,6 +43,7 @@ Project2_Q&A_Bot_for_College_Admission/
 │
 └── requirements.txt
 
+```
 ---------------------------------------------------------------------------
 
 # Setup Instructions
