@@ -17,12 +17,13 @@ Chatbots provide several benefits, including:
 
 ---------------------------------------------------------------------------
 # Requirements
-To install the required packages for this project, run:
--> pip install -r requirements.txt
+To install the required packages for this project, run: <br>
+pip install -r requirements.txt
 
 ---------------------------------------------------------------------------
 
 # Project Structure
+
 Project2_Q&A_Bot_for_College_Admission/
 │
 ├── static/
@@ -44,18 +45,16 @@ Project2_Q&A_Bot_for_College_Admission/
 ---------------------------------------------------------------------------
 # Setup Instructions
 
-1) Clone the repository:
-   git clone https://github.com/yourusername/admission_chatbot.git
+1) Clone the repository:<br>
+   git clone https://github.com/yourusername/admission_chatbot.git <br>
    cd admission_chatbot
 
-2) Install dependencies:
+2) Install dependencies: <br>
    pip install -r requirements.txt
 
-3) Run the chatbot:
+3) Run the chatbot:<br>
    python chatbot.py
 
-4) Access the chatbot:
+4) Access the chatbot: <br>
    Open your web browser and go to http://127.0.0.1:5000/.
-
-------------------------------------------------------------------------------
-By using two spaces at the end of lines or `<br>` tags where necessary, you can ensure proper line breaks and readability in your `README.md` file.
+   
