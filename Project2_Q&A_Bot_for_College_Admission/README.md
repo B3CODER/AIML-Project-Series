@@ -47,8 +47,10 @@ Project2_Q&A_Bot_for_College_Admission/
 │
 ├── interaction_log.json
 │
-├── chatbot.py
+├── memory.json
 │
+├── chatbot.py
+|
 ├── main.py
 │
 ├── long_responses.py
