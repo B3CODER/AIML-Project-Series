@@ -1,8 +1,7 @@
 import os
 import json
-import random
 from datetime import datetime
-import long_responses as long
+import long_responses as long  # Assuming you have a module for long responses
 
 # Function to log interactions
 def log_interaction(user_message, bot_response):
@@ -18,6 +17,9 @@ def log_interaction(user_message, bot_response):
             f.write(',\n')
         json.dump(interaction, f, indent=4)
     return interaction
+
+# Maintain a memory dictionary to store context
+memory = {}
 
 def message_probability(user_message, recognised_words, single_response=False, required_words=[]):
     message_certainty = 0
@@ -50,7 +52,8 @@ def check_all_messages(message):
     def response(bot_response, list_of_words, single_response=False, required_words=[]):
         nonlocal highest_prob_list
         highest_prob_list[bot_response] = message_probability(message, list_of_words, single_response, required_words)
-    # Admission-related Responses
+
+    # Example responses (you can add more)
     response('Hello! I am your Chat bot', ['hello', 'hi', 'hey', 'sup', 'heyo'], single_response=True)
     response('See you!', ['bye', 'goodbye'], single_response=True)
     response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], required_words=['how'])
@@ -58,12 +61,8 @@ def check_all_messages(message):
     response('Thank you!', ['i', 'love', 'code', 'palace', 'nice', 'meet'], required_words=['code', 'palace'])
     response('I am glad I met you!', ['nice', 'meet'], required_words=['meet'])
     response('Bye Good Night', ['good', 'night'], required_words=['night'])
-    response('Ah..I was just waiting for you', ['doing', 'you'], required_words=['doing', 'you'])
-    response('Do some yoga, you will feel good', ['bored', 'tired', 'boring', 'feeling well'])
     response('Good to hear that', ['good', 'fine', 'great'])
     response('Yes my dear', ['really'])
-    response('Grab your favourite snacks', ['hungry'])
-    
     response('Our admission process includes filling out an online application, submitting required documents, and attending an interview.', 
              ['admission', 'process'], required_words=['admission', 'process'])
     response('The application deadline is June 30th.', 
@@ -85,14 +84,39 @@ def check_all_messages(message):
     response('Yes, we provide on-campus accommodation for all students.', 
              ['accommodation', 'available'], required_words=['accommodation', 'available'])
 
+    # Check if there is context to provide a more personalized response
+    if 'context' in memory:
+        for key in memory['context']:
+            if key in highest_prob_list:
+                highest_prob_list[key] += memory['context'][key]
 
     best_match = max(highest_prob_list, key=highest_prob_list.get)
-    
+
+    # Update memory with current interaction
+    memory['context'] = { best_match: memory.get('context', {}).get(best_match, 0) + 1 }
+
     if highest_prob_list[best_match] < 1:
-        bot_response = long.unknown()
-        log_interaction(' '.join(message), bot_response)  # Join the message list into a string
+        bot_response = long.unknown()  # If no suitable response found, use a fallback response
+        log_interaction(' '.join(message), bot_response)  # Log the interaction
         return bot_response
     else:
         bot_response = best_match
-        log_interaction(' '.join(message), bot_response)  # Join the message list into a string
+        log_interaction(' '.join(message), bot_response)  # Log the interaction
         return bot_response
+
+def update_memory(user_message, bot_response):
+    # Update memory based on user's message and bot's response
+    if 'context' not in memory:
+        memory['context'] = {}
+
+    # Store the interaction in memory
+    if bot_response in memory['context']:
+        memory['context'][bot_response] += 1
+    else:
+        memory['context'][bot_response] = 1
+
+    with open('memory.json', 'w') as f:
+        json.dump(memory, f, indent=4)
+
+
+
