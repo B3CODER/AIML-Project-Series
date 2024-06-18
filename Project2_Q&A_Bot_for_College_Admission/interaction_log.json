@@ -107,4 +107,104 @@
     "timestamp": "2024-05-27T23:17:02.349800",
     "user_message": "hello",
     "bot_response": "Hello! I am your Chat bot"
+},
+{
+    "timestamp": "2024-05-29T13:20:24.432033",
+    "user_message": "hello",
+    "bot_response": "Hello! I am your Chat bot"
+},
+{
+    "timestamp": "2024-05-29T13:20:32.254040",
+    "user_message": "admission process",
+    "bot_response": "Our admission process includes filling out an online application, submitting required documents, and attending an interview."
+},
+{
+    "timestamp": "2024-05-29T13:20:37.995207",
+    "user_message": "percentage ",
+    "bot_response": "Our admission process includes filling out an online application, submitting required documents, and attending an interview."
+},
+{
+    "timestamp": "2024-05-29T13:21:18.869505",
+    "user_message": "scholarship",
+    "bot_response": "Our admission process includes filling out an online application, submitting required documents, and attending an interview."
+},
+{
+    "timestamp": "2024-05-29T13:21:28.359818",
+    "user_message": "scholarship applied",
+    "bot_response": "Our admission process includes filling out an online application, submitting required documents, and attending an interview."
+},
+{
+    "timestamp": "2024-05-29T13:21:46.430111",
+    "user_message": "entrance exam date",
+    "bot_response": "The entrance exam is scheduled for July 15th."
+},
+{
+    "timestamp": "2024-05-29T13:22:02.366042",
+    "user_message": "courses offered",
+    "bot_response": "We offer undergraduate, postgraduate, and doctoral programs in various fields such as engineering, science, and management."
+},
+{
+    "timestamp": "2024-05-29T13:31:39.935604",
+    "user_message": "hi",
+    "bot_response": "Hello! I am your Chat bot"
+},
+{
+    "timestamp": "2024-05-29T13:31:46.875460",
+    "user_message": "what are the admission deadlines ",
+    "bot_response": "Hello! I am your Chat bot"
+},
+{
+    "timestamp": "2024-05-29T13:32:25.207660",
+    "user_message": "what are the application deadlines ",
+    "bot_response": "Hello! I am your Chat bot"
+},
+{
+    "timestamp": "2024-05-29T13:32:59.736834",
+    "user_message": "what about campus location",
+    "bot_response": "Our campus is located in the heart of the city, easily accessible by public transport."
+},
+{
+    "timestamp": "2024-05-29T13:33:38.814386",
+    "user_message": "what are the application deadline ",
+    "bot_response": "The application deadline is June 30th."
+},
+{
+    "timestamp": "2024-05-29T13:33:48.145553",
+    "user_message": "are scholarships available ",
+    "bot_response": "The application deadline is June 30th."
+},
+{
+    "timestamp": "2024-05-29T13:34:10.988904",
+    "user_message": "are scholarships apply ",
+    "bot_response": "The application deadline is June 30th."
+},
+{
+    "timestamp": "2024-05-29T13:34:24.581700",
+    "user_message": "are scholarship apply ",
+    "bot_response": "You can apply for a scholarship by submitting a scholarship application along with your admission form."
+},
+{
+    "timestamp": "2024-05-29T13:34:33.716607",
+    "user_message": "how can i contact the admission office",
+    "bot_response": "You can contact the admission office at admission@example.com or call us at (123) 456-7890."
+},
+{
+    "timestamp": "2024-05-29T13:34:44.260935",
+    "user_message": "bye for now ",
+    "bot_response": "See you!"
+},
+{
+    "timestamp": "2024-05-29T13:35:48.505591",
+    "user_message": "hello",
+    "bot_response": "Hello! I am your Chat bot"
+},
+{
+    "timestamp": "2024-05-29T13:36:05.195532",
+    "user_message": "admission process",
+    "bot_response": "Our admission process includes filling out an online application, submitting required documents, and attending an interview."
+},
+{
+    "timestamp": "2024-05-29T13:37:03.525608",
+    "user_message": "criteria",
+    "bot_response": "Our admission process includes filling out an online application, submitting required documents, and attending an interview."
 }
